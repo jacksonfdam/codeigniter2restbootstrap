@@ -41,12 +41,12 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
+$db['default']['hostname'] = '10.1.1.21';
+$db['default']['username'] = 'postgres';
+$db['default']['password'] = 'postgres';
+$db['default']['database'] = 'pmcampobom';
+$db['default']['dbdriver'] = 'postgre';
+$db['default']['dbprefix'] = 'solucoesglobais.';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
